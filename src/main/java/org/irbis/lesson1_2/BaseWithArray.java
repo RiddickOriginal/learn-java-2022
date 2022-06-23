@@ -1,4 +1,4 @@
-package org.irbis;
+package org.irbis.lesson1_2;
 
 public class BaseWithArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.irbis;
+package org.irbis.lesson3;
 
 public class MethodsAndModifications {
 
