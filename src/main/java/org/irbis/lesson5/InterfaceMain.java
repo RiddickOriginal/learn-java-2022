@@ -1,6 +1,6 @@
-package org.irbis.lesson5.intrf;
+package org.irbis.lesson5;
 
-public class Main {
+public class InterfaceMain {
     public static void main(String[] args) {
         NotificationService smsService = getService("message 1", "+78005553535");
         NotificationService emailService = getService("message 2", "vvd@irbis.org");

@@ -1,4 +1,4 @@
-package org.irbis.lesson5.intrf;
+package org.irbis.lesson5;
 
 public class EmailNotificationService implements NotificationService {
     private String message;
