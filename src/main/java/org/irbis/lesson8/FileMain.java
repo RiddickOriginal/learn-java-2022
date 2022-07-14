@@ -11,10 +11,8 @@ public class FileMain {
 
         File file = new File(dir, "file.txt");
         file.createNewFile();
-        
-        try (
-                FileOutputStream stream = new FileOutputStream(file)
-        ) {
+
+        try (FileOutputStream stream = new FileOutputStream(file)) {
             stream.write("Привет файл".getBytes());
         } catch (IOException e) {
             throw new RuntimeException(e);
